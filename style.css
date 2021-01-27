@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  color: #656C88;
+  font-family: 'Lora', serif;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a {
+  color: #6B72E1;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #404041;
+}
+
+img {
+  width: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card {
+  background-color: white;
+  padding: 40px;
+  margin: 20px 0;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+#intro p {
+  margin-bottom: 40px;
+}
+
+
+.btn-purple {
+  background-color: #6B72E1;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+
+.btn-purple:hover {
+  background-color: #000000;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
